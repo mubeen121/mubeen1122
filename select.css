@@ -1,0 +1,129 @@
+*{
+    font-family: 'Courier New';
+    /* margin: 0;
+    padding: 0; */
+}
+
+h1{
+    color: #b92b27 !important;
+}
+h3{
+    color: #b92b2b;
+}
+#login{
+    background-color:#b92b27;
+    color: white;
+}
+#login:hover{
+    background-color: grey;
+    color: black;
+}
+#login:active{
+    background-color: black;
+    color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+#signup:hover{
+    background-color: grey;
+    color: black;
+}
+#signup:active{
+    background-color: black;
+    color: white;
+}
+
+
+.upvote{
+    background-color: green;
+    color:aliceblue;
+}
+
+
+/* descendant selector */
+
+
+p a{
+    color: purple;
+    font-size: 20px;
+    background-color: yellow;
+}
+nav  a{
+    color:deeppink;
+}
+li{
+    color: blue;
+}
+
+/* sibbling */
+
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+
+/* child combinator */
+
+/* div > input{
+    background-color: darksalmon;
+} */
+
+/* attribute selector */
+/* we can give css through select their type and give type name or simply we can give type so all type attribute color can be change */
+
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+
+    color: rgb(5, 150, 10);
+}
+input[type]{
+    background-color: rgb(250, 223, 71);
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+
+}
+button:active{
+    background-color: deeppink;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bolder;
+}
+div:nth-of-type(2n){
+    background-color:rgb(240, 207, 164);
+
+}
+div:nth-of-type(2n+1){
+    background-color:lightgrey;
+
+}
+
+h1::first-letter{
+    color: black;
+
+}
+p::first-line{
+    color: blue;
+}
+p::selection{
+    background-color: rgb(243, 247, 23);
+}

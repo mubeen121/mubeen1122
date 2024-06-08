@@ -1,0 +1,12 @@
+div{
+    background-color: yellow;
+}
+/* form{
+    background-color: red;
+} */
+input{
+    background-color: inherit;  /* the background color inhert mean that we can take the div color in our input  field*/
+}
+button{
+    background-color: inherit;
+}

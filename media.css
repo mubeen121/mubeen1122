@@ -1,0 +1,50 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+/* @media(width:400px){
+    h1{
+        background-color: red;
+        color: white;
+    }
+    div{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media(min-width:700px){
+    h1{
+        background-color: rgb(233, 124, 15);
+        color: white;
+
+    }
+    
+}
+
+@media(max-width:500px){
+    h1{
+        background-color: rgb(222, 212, 12);
+        color: rgb(15, 15, 15);
+
+    }
+    div{
+        background-color: rgb(248, 62, 204);
+        width: 100px;
+        height: 100px;
+    }
+} */
+
+@media(min-width:200px)and (max-width:400px){
+    h1
+    {
+        background-color: magenta;
+        color: red;
+    }
+}
+@media(orientation:landscape){
+    h1{
+        background-color: aqua;
+    }
+}
