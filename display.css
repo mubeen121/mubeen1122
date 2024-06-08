@@ -1,0 +1,55 @@
+div{
+    height: 200px;
+    width: 400px; 
+    background-color: rgb(169, 240, 47);
+    /* background-image: url("./baloon.png"); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+
+    /* background-size: cover; */
+
+    /* border: 2px solid black; */
+     /* margin-top: 50px;
+     margin-left: 30px; */
+     /* transform: rotate(45deg); */
+
+     /* transform: scale(2,1); */
+
+     /* transform: translate(100px ,100px); */
+
+     /* transform: skew(20deg); */
+
+    
+
+     /* box-shadow: 2px 2px 4px  rgb(9, 9, 9); */
+
+
+     /* transform: rotate(30deg) translate(150px) scale(1,2) skew(30deg); */
+
+    /*margin: 0 auto; */
+
+    /* display: inline-block; */
+
+    /* transition-delay:2; */
+
+
+    /* transition:margin-top 2s ease-in-out 1s; */
+    /* transition: 3s; */
+    /* transition-timing-function:ease-out;
+    transition:margin-top 2s ease-in-out 0.2s; */
+
+    
+ } 
+ /* div:hover{
+     background-color: black;
+    border-radius: 50%;
+    margin-top: 400px;
+    width: 100px;
+    transform: scale(5);
+ }   */
+    
+
+ /* #opacity{
+    background-color: rgb(19, 19, 19);
+    opacity: 0.5;
+} */

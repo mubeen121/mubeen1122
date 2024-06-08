@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    height: 300px;
+    background-color:yellow;
+    display: grid;
+   
+    /* grid-template-rows: 50px 50px 50px 50px 50px; */
+    /* grid-template-columns: 200px 200px 200px ; */
+    /* grid-template-columns: auto auto auto ;     it can not be used as much some time we can use it  */
+    /* grid-template-rows:repeat(3,1fr); */
+    
+    /* these both have same meaning that we can use the upper or the lower */
+    grid-template-rows:1fr 1fr 1fr  ;
+    grid-template-columns:repeat(3,1fr);
+    /* row-gap: 10px;
+    column-gap: 30px; */
+    grid-gap: 10px 30px;
+    /* justify-items: start; */
+    /* justify-items: end; */
+    /* justify-items: center; */
+    /* align-items: start; */
+    /* align-items: end; */
+    /* align-items: center; */
+
+    /* if we can give justify and align same so we can use place item  or used for one div so we can use place self*/
+    
+    /* place-items: start; */
+    /* place-items: end; */
+    place-items: center;
+    
+
+}
+.item{
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+   
+}
+/* .one{
+    justify-self: end;
+} */
+/* .one{
+    grid-column-start: 1;
+    grid-column-end: 4; */
+     /* we can use the below are the above both have same meaning */
+    /* grid-column: 1/4;
+    grid-column: 1/ span 4;     
+     */
+/* }  */
+
+
+/* .two{
+    align-self: start;
+    align-self: end;
+} */
+/* .two{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-row: 1/4;
+
+} */

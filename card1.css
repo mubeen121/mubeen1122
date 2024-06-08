@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background:linear-gradient(220deg,yellow 200px,pink 50%);
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left:200px;
+    overflow: hidden;
+    border: 5px solid red;
+   
+   
+}
+div h1{
+    font-family: sans-serif;
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    font-size: 4rem;
+    color: red;
+    font-weight: 900px;
+    /* text-decoration: underline; */
+}
+h1 span{
+    position: absolute;
+    left: 100%;
+}
+
+
+div h3{
+    font-family: sans-serif;
+    font-weight: 800px;
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    font-size: 2.5rem;
+    color: rgb(243, 6, 6);
+    color: white;
+    z-index: 2;
+    /* transform: skew(5deg,5deg); */
+    /* text-decoration: underline; */
+}
+
+#date{
+    position: absolute;
+    top: 450px;
+    left: 660px;
+    text-decoration:underline;
+}
+#time{
+    position: absolute;
+    left: 50px;
+    line-height: 80px;
+    text-decoration: underline;
+}
+img{
+    width: 400px;
+    height: 600px;
+    box-shadow: 0px 20px 60px 30px grey;
+    /* position: absolute; */
+    position: relative;
+    top: 180px;
+    left: 30px;
+    clip-path: circle(50%);
+    border: 4px solid red;
+    object-fit: cover;
+   
+}
+div h4{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    font-size: 3rem;
+    color: rgba(101, 7, 51);
+}
+p{
+    position: absolute;
+    left: 480px;
+    /* top: 0; */
+    /* bottom: 0px; */
+    font-size: 60rem;
+    bottom: -280px;
+    color: red;
+    z-index: 1;
+    
+
+}

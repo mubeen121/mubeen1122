@@ -1,0 +1,36 @@
+h1{
+    color: red;
+}
+h2{
+    color: black;
+    font-size: 2rem;
+}
+h2 span{
+    color: goldenrod;
+    text-transform: uppercase;
+}
+#pet{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 40px;
+    position: relative;
+    bottom: 100px;
+    width: 350px;
+    padding: 10px;
+}
+.card img{
+    width: 350px;
+    height: 200px;
+    justify-content: center;
+    border-radius: 20px;
+}
+@media(max-width:391px){
+    #pet{
+        flex-wrap: wrap;
+    }
+}

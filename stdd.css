@@ -1,0 +1,9 @@
+div{
+    height: 200px; 
+    width:500px;
+    border: 2px solid red;
+    /* border-top-left-radius: 50px; */
+    /* border-radius: 10px 100px /120px; */
+    /* padding-left: 250px; */
+    margin:0 0px 20px 30px;
+}

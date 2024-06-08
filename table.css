@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+table {
+    border: 2px solid black;
+    width: 80%;
+    height: 50%;
+    background-color: black;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    padding: 20px;
+    
+}
+ tr,th,td {
+    border: 2px solid red;
+    text-align: center;
+    border-radius: 20px;
+    background-color: yellow;
+    padding: 10px;
+    border-spacing: 100px;
+    border-collapse: collapse;
+}
+tr{
+    column-span: 2;
+}
+caption{
+    border: 2px solid black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: aqua;
+}
